@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <title>spotify clone</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <div class="banner">
+        <div class="left-banner">
+            <img src="images\image.png" alt="left-banner">
+            <div class="heading">
+                <h1>deep focus</h1>
+                <p>deep focus paragraph tag</p>
+            </div>
+        </div>
+    </div>
+    <div class="main-section">
+        <div class="controls" onclick="playAudio()" id="play-pause">
+            <img class="button" src="images\play-button.svg" alt="play-pause_image"></img>
+        </div>
+
+        <audio id="song"></audio>
+
+        <table>
+            <thead>
+                <th class="song-Number">#</th>
+                <th class="song-Title">Title</th>
+                <th class="song-Artist">Artist</th>
+                <th class="song-Duration">Duration</th>
+            </thead>
+            <tr id="song1" onclick="playAll(1)">
+                <td>1</td>
+                <td>Mike Posner - I took a pill in Ibiza (Cover)</td>
+                <td>Ishaan Kaushik</td>
+                <td>03:46</td>
+            </tr>
+            <tr id="song2" onclick="playAll(2)">
+                <td>2</td>
+                <td>Ghar (Cover)</td>
+                <td>Ishaan Kaushik</td>
+                <td>03:47</td>
+            </tr>
+            <tr id="song3" onclick="playAll(3)">
+                <td>3</td>
+                <td>Kahi to hogi woh (Cover)</td>
+                <td>Ishaan Kaushik</td>
+                <td>03:40</td>
+            </tr>
+            <tr id="song4" onclick="playAll(4)">
+                <td>4</td>
+                <td>Kasoor (Cover)</td>
+                <td>Ishaan Kaushik</td>
+                <td>02:43</td>
+            </tr>
+            <tr id="song5" onclick="playAll(5)">
+                <td>5</td>
+                <td>Tu Hai Kahan</td>
+                <td>Ishaan Kaushik</td>
+                <td>02:59</td>
+            </tr>
+            <tr id="song6" onclick="playAll(6)">
+                <td>6</td>
+                <td>Baarishein - Anuv Jain (Cover)</td>
+                <td>Ishaan Kaushik</td>
+                <td>03:15</td>
+            </tr>
+            <tr id="song7" onclick="playAll(7)">
+                <td>7</td>
+                <td>Waqt Ki Baatein (Cover)</td>
+                <td>Ishaan Kaushik</td>
+                <td>02:57</td>
+            </tr>
+            <tr id="song8" onclick="playAll(8)">
+                <td>8</td>
+                <td>Lovely feat. Anika Vidyarthi (Cover)</td>
+                <td>Ishaan Kaushik</td>
+                <td>02:53</td>
+            </tr>
+            <tr id="song9" onclick="playAll(9)">
+                <td>9</td>
+                <td>Let me down slowly - Alec Benjamin (Cover)</td>
+                <td>Ishaan Kaushik</td>
+                <td>02:55</td>
+            </tr>
+            <tr id="song10" onclick="playAll(10)">
+                <td>10</td>
+                <td>Jee Le Zara - (Cover)</td>
+                <td>Ishaan Kaushik</td>
+                <td>02:56</td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

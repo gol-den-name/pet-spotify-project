@@ -1,0 +1,91 @@
+/* GLOBAL */
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin: 0;
+    padding-bottom: 2%;
+}
+
+/* BANNER SECTION */
+.banner {
+    background-image: url(images/banner1.svg);
+    height: 14em;
+    background-position: center;
+    background-size: cover;
+}
+
+.left-banner {
+    float: left;
+}
+
+.left-banner img {
+    width: 10em;
+    margin-top: 2em;
+    margin-left: 2em;
+    display: inline-block;
+    margin-right: 1.2em;
+}
+
+.heading {
+    display: inline-block;
+}
+
+/* MAIN SECTION */
+.main-section {
+    margin: 2em auto;
+    width: 80%;
+}
+
+/* TABLE + CELLS */
+table {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse; /* Important for highlight row background */
+}
+
+.main-section td {
+    padding: 1.2em;
+    cursor: pointer;
+}
+
+table td:hover {
+    color: whitesmoke;
+}
+
+th {
+    padding: 2em 0 1em 0;
+    font-size: large;
+    border-bottom: 2px solid gray;
+}
+
+/* COLUMN WIDTHS */
+.song-Number {
+    width: 20px;
+}
+
+.song-Title {
+    width: 500px;
+}
+
+.song-Artist {
+    width: 200px;
+}
+
+.song-Duration {
+    width: 100px;
+}
+
+/* PLAY / PAUSE BUTTON */
+.controls img {
+    margin-top: 1em;
+    width: 3em;
+    cursor: pointer;
+}
+
+/* ACTIVE TRACK HIGHLIGHT */
+tr.highlight {
+    background-color: rgba(242, 143, 22, 0.25);
+    color: rgb(242, 143, 22) !important;
+    transition: 0.25s;
+}
